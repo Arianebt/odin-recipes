@@ -1,0 +1,60 @@
+html {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 1px;
+    margin: 1px;
+    background-color: #C87A94;
+}
+
+body {
+    max-width: max-content;
+    background-color: #F8E3EA;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    width: 80%; /* Adjust the width of your content */
+}
+
+.img-recipes {
+    justify-content: center;
+    display: flex;
+}
+
+.recipes-list li{
+    list-style-type: none; /* Removes the bullet points */
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 70px; /* Adjust the space between list items */
+    font-size: 25px;
+}
+
+li {
+    font-size: 25px;
+}
+
+p {
+    font-size: 30px;
+}
