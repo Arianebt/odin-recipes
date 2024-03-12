@@ -1,60 +1,91 @@
 html {
-    justify-content: center;
-    display: flex;
-    margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.background {
+  background-image: url(img/bg_bg.jpg);
+  min-height: 1000px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    display: block;
-
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  display: block;
 }
+
 
 h1 {
-    text-align: center;
-    font-size: 60px;
-    padding: 1px;
-    margin: 1px;
-    background-color: #C87A94;
+  text-align: center;
+  font-size: 60px;
+  margin: 1px;
+  padding: 75px;
 }
 
+.head-bg {
+  background-image: url("img/head_bg.jpg");
+  width: 800px; /* Adjust the width of the container */
+  height: 150px; /* Set the height of the container */
+  margin: 0 auto;
+}
+
+
 body {
-    max-width: max-content;
-    background-color: #F8E3EA;
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  max-width: 1000px;
+  background-color: #F5EBEE;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
 }
 
 .main-content {
-    width: 80%; /* Adjust the width of your content */
+  width: 80%; /* Adjust the width of your content */
 }
 
 .img-recipes {
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
 }
 
-.recipes-list li{
-    list-style-type: none; /* Removes the bullet points */
-    display: inline-block; /* Display list items horizontally */
-    margin-right: 70px; /* Adjust the space between list items */
-    font-size: 25px;
+.recipes-list li {
+  list-style-type: none; /* Removes the bullet points */
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 70px; /* Adjust the space between list items */
+  font-size: 25px;
+}
+
+.info {
+  background-color: #F5EBEE; 
+  min-height: 850px;
+  padding-top: 23px;
+
 }
 
 li {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 p {
-    font-size: 30px;
+  font-size: 30px;
+}
+
+.recipes-list ul {
+  display: contents;
+}
+
+h2 {
+  font-size: 30px;
 }
